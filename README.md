@@ -35,7 +35,7 @@ session.
 
 ## Solution:
 How to run:
-1. Run "mvn spring-boot:run" in the terminal from the root of the project.
+1. Run "mvn spring-boot:run" in the terminal from the laundry_booking_service module.
 2. Go to localhost:8080/swagger-ui.html
    1. In the swagger api you can create bookings via the post method
       1. The laundryRoomId must be 1 or 2 because that is the only rooms that exist at the moment
