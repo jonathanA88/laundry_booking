@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c6d3b8-f5c3-485a-8088-09640348ab69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/LaundryBookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/LaundryBookingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/LaundryBookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/model/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/model/Bookings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/model/Household.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/model/LaundryRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/model/LaundryRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/model/request/BookingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/repository/LaundryBookingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/repository/LaundryHouseholdRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/repository/LaundryLaundryRoomRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/resources/db/migration/V1__initial_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laundry_booking_service/src/test/java/com/laundrybooking/LaundryBookingControllerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laundry_booking_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/laundry_booking_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/LaundryBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/LaundryBookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/LaundryBookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/service/LaundryBookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/repository/LaundryHouseholdRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/repository/LaundryHouseholdRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laundry_booking_service/src/test/java/com/laundrybooking/LaundryBookingControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/laundry_booking_service/src/test/java/com/laundrybooking/LaundryBookingControllerIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,38 +60,38 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.LaundryBookingMain">
-    <configuration name="LaundryBookingControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LaundryBookingControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laundry_booking_service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laundrybooking.*" />
+          <option name="PATTERN" value="com.laundrybooking.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.laundrybooking" />
-      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIT" />
+      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaundryBookingControllerIT.deleteBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LaundryBookingControllerIntegrationTest.deleteBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laundry_booking_service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laundrybooking.*" />
+          <option name="PATTERN" value="com.laundrybooking.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.laundrybooking" />
-      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIT" />
+      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIntegrationTest" />
       <option name="METHOD_NAME" value="deleteBooking" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaundryBookingControllerIT.deleteCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LaundryBookingControllerIntegrationTest.deleteCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laundry_booking_service" />
       <extension name="coverage">
         <pattern>
@@ -118,23 +100,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.laundrybooking" />
-      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIT" />
+      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIntegrationTest" />
       <option name="METHOD_NAME" value="deleteCountry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaundryBookingControllerIT.verifyGetAllBookings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LaundryBookingControllerIntegrationTest.verifyGetAllBookings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="laundry_booking_service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laundrybooking.*" />
+          <option name="PATTERN" value="com.laundrybooking.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.laundrybooking" />
-      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIT" />
+      <option name="MAIN_CLASS_NAME" value="com.laundrybooking.LaundryBookingControllerIntegrationTest" />
       <option name="METHOD_NAME" value="verifyGetAllBookings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -157,10 +139,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.LaundryBookingMain" />
-        <item itemvalue="JUnit.LaundryBookingControllerIT" />
-        <item itemvalue="JUnit.LaundryBookingControllerIT.verifyGetAllBookings" />
-        <item itemvalue="JUnit.LaundryBookingControllerIT.deleteBooking" />
-        <item itemvalue="JUnit.LaundryBookingControllerIT.deleteCountry" />
+        <item itemvalue="JUnit.LaundryBookingControllerIntegrationTest" />
+        <item itemvalue="JUnit.LaundryBookingControllerIntegrationTest.verifyGetAllBookings" />
+        <item itemvalue="JUnit.LaundryBookingControllerIntegrationTest.deleteBooking" />
+        <item itemvalue="JUnit.LaundryBookingControllerIntegrationTest.deleteCountry" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678967176333</updated>
-      <workItem from="1678967178407" duration="49976000" />
+      <workItem from="1678967178407" duration="52176000" />
     </task>
     <servers />
   </component>
@@ -195,11 +177,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/laundry_booking_service/src/main/java/com/laundrybooking/LaundryBookingController.java</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/laundry_booking_service/src/test/java/com/laundrybooking/LaundryBookingControllerIT.java</url>
+          <url>file://$PROJECT_DIR$/laundry_booking_service/src/test/java/com/laundrybooking/LaundryBookingControllerIntegrationTest.java</url>
           <line>71</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>

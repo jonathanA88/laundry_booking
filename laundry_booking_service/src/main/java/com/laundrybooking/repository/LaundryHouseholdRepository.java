@@ -1,7 +1,6 @@
 package com.laundrybooking.repository;
 
 import com.laundrybooking.model.Household;
-import com.laundrybooking.model.LaundryRoom;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

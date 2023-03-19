@@ -1,4 +1,4 @@
-package com.laundrybooking;
+package com.laundrybooking.service;
 
 import com.laundrybooking.model.Booking;
 import com.laundrybooking.model.Bookings;
@@ -22,7 +22,6 @@ import java.util.Comparator;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Random;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service

@@ -24,7 +24,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class LaundryBookingControllerIT {
+public class LaundryBookingControllerIntegrationTest {
 
     @Autowired
     private MockMvc mockMvc;
@@ -98,7 +98,7 @@ public class LaundryBookingControllerIT {
             .andDo(print())
             .andExpect(status().isOk());
 
-        // Check for one bookings
+        // Check for one booking
         this.mockMvc.perform(MockMvcRequestBuilders
                 .get("/bookings/"))
             .andExpect(status().isOk())

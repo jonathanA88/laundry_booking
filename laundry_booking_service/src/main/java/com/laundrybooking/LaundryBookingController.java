@@ -3,6 +3,7 @@ package com.laundrybooking;
 import com.laundrybooking.model.Bookings;
 import com.laundrybooking.model.LaundryRooms;
 import com.laundrybooking.model.request.BookingRequest;
+import com.laundrybooking.service.LaundryBookingService;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

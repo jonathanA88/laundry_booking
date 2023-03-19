@@ -35,8 +35,8 @@ session.
 
 ## Solution:
 How to run:
-1. Run the LaundryBookingMain class.
-2. go to localhost:8080/swagger-ui.html
+1. Run "mvn spring-boot:run" in the terminal from the root of the project.
+2. Go to localhost:8080/swagger-ui.html
    1. In the swagger api you can create bookings via the post method
       1. The laundryRoomId must be 1 or 2 because that is the only rooms that exist at the moment
       2. The householdId must be between 1-20
@@ -48,16 +48,18 @@ How to run:
    1. Either go to http://localhost:8080/h2-console and enter "password" in the password field to see the database
    2. Or, go to V1__initial_schema.sql to see all tables
 4. The tests are in the LaundryBookingControllerIT, currently there is one test for get, one for post and one for delete.
+   1. To run the tests. Run "mvn clean test" from the root of the project.
 
 * I chose to do a simple database model where I added the actual physical laundry rooms in on table, the households in one table and the actual bookings in another.
 
-* Vilka val jag gjort (varför moduler blabla)
+* Choices I've made regarding dependencies
   * I chose H2 as an inmemory database because I read that it's easy to get it up and running and easy to use
   * Same for flyway, very easy to get up and running and to get the process with creating table automated
   * I also added the springdoc-openapi-ui dependency to get the swagger ui for easier testing/use
+  * Since I've followed the clean code principles at Pricerunner I chose to do the same here. Therefor no javadoc and such.
 
-Todo - stuff I would want to implement but lacked time:
-* I would want to fix, so you don't have to add a landry room when booking, either add one or get assigned one at random if it's not important which room the user want
+Todo - Stuff I would want to implement but lacked time (can discuss it during the interview)
+* I would want to fix, so you don't have to add a laundry room when booking, either add one or get assigned one at random if it's not important which room the user want
 * Would like UUID instead of Integer as key
 * I would like a poller of some sorts to remove old bookings that have passed, or move them to a history table
 * Fix java.sql.Date to java.util.Date in LaundryBookingService class for method checkDateAndHourSlot
