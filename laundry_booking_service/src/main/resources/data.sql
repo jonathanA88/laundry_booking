@@ -1,0 +1,23 @@
+INSERT INTO household (id, apartment_number, owner_name) VALUES (1, 1001, 'Marabou Marabousson');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (2, 1002, 'Cloetta Cloettasson');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (3, 1003, 'Lindt Lindtsson');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (4, 1004, 'Fazer Fazersson');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (5, 1005, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (6, 2006, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (7, 2007, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (8, 2008, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (9, 2009, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (10, 2010, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (11, 3011, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (12, 3012, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (13, 3013, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (14, 3014, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (15, 3015, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (16, 4001, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (17, 4002, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (18, 4003, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (19, 4004, 'xxx xxx');
+INSERT INTO household (id, apartment_number, owner_name) VALUES (20, 4005, 'xxx xxx');
+
+INSERT INTO laundry_room (id, name) VALUES (1, 'Laundry Room 1 - Marabou');
+INSERT INTO laundry_room (id, name) VALUES (2, 'Laundry Room 2 - Cloetta');
